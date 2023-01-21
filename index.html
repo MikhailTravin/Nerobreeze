@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20221017213535">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<button type="button" class="header__icon icon-menu"><span></span></button>
+			<div class="header__content">
+				<div class="header__bg"></div>
+				<a href="#" class="header__logo">
+					<img class="header__logo-img" src="img/icons/logo.svg" alt="">
+				</a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a href="#" data-goto-top="50" data-goto=".page__platform" class="menu__link">Что дает платформа</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" data-goto-top="50" data-goto=".page__technical-description" class="menu__link">Техническое описание решения</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" data-goto-top="50" data-goto=".page__advantages" class="menu__link">Конкурентные преимущества</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" data-goto-top="50" data-goto=".page__problem" class="menu__link">Проблема</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" data-goto-top="50" data-goto=".page__architecture" class="menu__link">Архитектура</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" data-goto-top="50" data-goto=".page__integrated-system" class="menu__link">Комплексная архитектура системы</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" data-goto-top="50" data-goto=".page__results" class="menu__link">Ожидаемые результаты</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__contacts contacts-header">
+					<div class="contacts-header__top">
+						<a id="buttonCases" href="#" class="contacts-header__button _icon-cases">Кейсы</a>
+						<div class="contacts-header__text-email">Напишите нам и мы ответим на Ваши вопросы</div>
+						<a id="buttonEmail" href="#" class="contacts-header__button _icon-email">Написать</a>
+					</div>
+					<div class="contacts-header__bottom">
+						<div class="contacts-header__text">© 2021 Нейробриз</div>
+						<a href="#" class="contacts-header__text">МСК +7 (495) 641-64-50</a>
+						<a href="#" class="contacts-header__text">ПРМ +7 (342) 202-50-56</a>
+						<a href="#" class="contacts-header__email">neurobriz@yandex.ru</a>
+					</div>
+				</div>
+			</div>
+			<div class="header__button-block">
+				<div class="header__cases cases-header">
+					<div class="cases-header__container">
+						<button type="button" class="cases-header__icon"><span></span></button>
+						<div class="cases-header__title">Кейсы</div>
+						<div class="cases-header__body">
+							<div class="cases-header__column">
+								<div class="cases-header__item">
+									<div class="cases-header__image">
+										<picture><source srcset="img/cases-1.webp" type="image/webp"><img src="img/cases-1.jpg" alt=""></picture>
+										<div class="cases-header__image-title">Платформа нейросетевой видеоаналитики для обнаружения нарушений общественной безопасности</div>
+									</div>
+									<div class="cases-header__content">
+										<div class="cases-header__text">Мосметро, 2020</div>
+										<a href="#" class="cases-header__button">Открыть</a>
+									</div>
+								</div>
+							</div>
+							<div class="cases-header__column">
+								<div class="cases-header__item">
+									<div class="cases-header__image">
+										<picture><source srcset="img/cases-2.webp" type="image/webp"><img src="img/cases-2.jpg" alt=""></picture>
+										<div class="cases-header__image-title">Фиксация нарушений в зоне движения поездов в автоматическом режиме</div>
+									</div>
+									<div class="cases-header__content">
+										<div class="cases-header__text">РЖД, 2020</div>
+										<a href="#" class="cases-header__button">Открыть</a>
+									</div>
+								</div>
+							</div>
+							<div class="cases-header__column">
+								<div class="cases-header__item">
+									<div class="cases-header__image">
+										<picture><source srcset="img/cases-3.webp" type="image/webp"><img src="img/cases-3.jpg" alt=""></picture>
+										<div class="cases-header__image-title">Платформа нейросетевой видеоаналитики для обнаружения нарушений охраны труда, техники безопасности и технологии производства работ</div>
+									</div>
+									<div class="cases-header__content">
+										<div class="cases-header__text">ЦОДД, 2020</div>
+										<a href="#" class="cases-header__button">Открыть</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="header__email email-header">
+					<div class="email-header__content">
+						<div class="email-header__container">
+							<button type="button" class="email-header__icon"><span></span></button>
+							<div class="email-header__title">Напишите нам и мы ответим<br> на Ваши вопросы</div>
+							<form action="#" class="email-header__forms">
+								<div class="email-header__line">
+									<div class="email-header__form first-form">
+										<div class="email-header__label">Ваше имя</div>
+										<input type="name" name="form[]" placeholder="Как можно к вам обратиться?" class="email-header__input">
+									</div>
+									<div class="email-header__body">
+										<div class="email-header__form">
+											<div class="email-header__label">Ваш телефон*</div>
+											<input data-validate id="tel" type="tel" name="form[]" placeholder="В любом удобном для вас формате (обязательно)" class="email-header__input">
+										</div>
+										<div class="email-header__form">
+											<div class="email-header__label">Ваша электронная почта*</div>
+											<input data-validate data-required="email" type="email" name="form[]" placeholder="Обещаем, что не отправим спам (обязательно)" class="email-header__input">
+										</div>
+										<div class="email-header__form">
+											<div class="email-header__label">название вашей Компании</div>
+											<input id="namecompany" type="text" name="form[]" placeholder="Какую компанию вы представляете?" class="email-header__input">
+										</div>
+										<div class="email-header__form">
+											<div class="email-header__label">Ваша Должность</div>
+											<input type="text" name="form[]" placeholder="Какую должность занимаете?" class="email-header__input">
+										</div>
+									</div>
+									<div class="email-header__form last-form">
+										<div class="email-header__label">ваше Сообщение</div>
+										<textarea name="text" placeholder="Задайте ваш вопрос..." class="email-header__textarea"></textarea>
+									</div>
+								</div>
+								<button type="submit" class="email-header__button">Отправить</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header__shadow"></div>
+		</header>
+		<main class="page">
+			<section data-watch="navigator" class="page__main-home">
+				<picture><source srcset="img/main-bg.webp" type="image/webp"><img src="img/main-bg.png" alt="" class="main-home__bg"></picture>
+				<div class="main-home__container">
+					<div class="main-home__title">Нейробриз</div>
+					<div class="main-home__subtitle">платформа нейросетевой<br> видеоаналитики для обнаружения<br> нарушений охраны труда<br> и техники безопасности</div>
+					<img src="img/icons/line.svg" alt="" class="main-home__icon icon">
+				</div>
+			</section>
+			<section data-watch="navigator" class="page__platform platform">
+				<div class="platform__container">
+					<div class="platform__title title">Что дает платформа</div>
+					<div class="platform__subtitle subtitle">Нейросетевая видеоаналитика — это распознавание негативных ситуаций<br> по видеопотоку в режиме реального времени</div>
+					<div class="platform__text">Экономические эффекты:</div>
+					<div class="platform__body">
+						<div class="platform__column">
+							<div class="platform__item">
+								<div class="platform__image _icon-platform-1"></div>
+								<div class="platform__desc">Снижает производственный травматизм</div>
+							</div>
+						</div>
+						<div class="platform__column">
+							<div class="platform__item">
+								<div class="platform__image _icon-platform-2"></div>
+								<div class="platform__desc">Уменьшает число вызовов в прокуратуру и налзорные органы</div>
+							</div>
+						</div>
+						<div class="platform__column">
+							<div class="platform__item">
+								<div class="platform__image _icon-platform-3"></div>
+								<div class="platform__desc">Уменьшает количество штрафов за нарушения охраны труда и техники безопасности</div>
+							</div>
+						</div>
+					</div>
+					<img src="img/icons/line.svg" alt="" class="platform__icon icon">
+				</div>
+			</section>
+			<section data-watch="navigator" class="page__technical-description technical-description">
+				<div class="technical-description__container">
+					<div class="technical-description__title title">Техническое описание решения</div>
+					<div class="technical-description__body">
+						<div class="technical-description__column">
+							<div class="technical-description__icons _icon-technical-description-1">
+								До 100 объектов для распознавания: люди,<br> предметы, действия, СИЗы, техника и др.
+							</div>
+						</div>
+						<div class="technical-description__column">
+							<div class="technical-description__icons _icon-technical-description-2">
+								Работает в реальном времени<br> ( <50 мс) </div>
+							</div>
+							<div class="technical-description__column">
+								<div class="technical-description__icons _icon-technical-description-3">
+									Выявляет<br> нарушения
+								</div>
+							</div>
+							<div class="technical-description__column">
+								<div class="technical-description__icons _icon-technical-description-4">
+									Сигнализирует<br> о нарушении
+								</div>
+							</div>
+							<div class="technical-description__column">
+								<div class="technical-description__icons _icon-technical-description-5">
+									Контролирует<br> устранение
+								</div>
+							</div>
+						</div>
+						<img src="img/icons/line.svg" alt="" class="technical-description__icon icon">
+					</div>
+			</section>
+			<section data-watch="navigator" class="page__advantages advantages">
+				<div class="advantages__container">
+					<div class="advantages__title title">Конкурентные преимущества</div>
+					<div class="advantages__body">
+						<div class="advantages__column">
+							<div class="advantages__item advantages-odd">
+								<div class="advantages__text advantages-odd">Процент<br> распознавания:</div>
+								<div class="advantages__number advantages-odd-number">
+									<div class="advantages__num-text advantages-odd-number">до</div>
+									<span>95</span>
+									<div class="advantages__value">%</div>
+								</div>
+							</div>
+						</div>
+						<div class="advantages__column">
+							<div class="advantages__item">
+								<div class="advantages__text">Количество<br> нарушений:</div>
+								<div class="advantages__number">
+									<div class="advantages__num-text">до</div>
+									<span>20</span>
+								</div>
+							</div>
+						</div>
+						<div class="advantages__column">
+							<div class="advantages__item advantages-odd">
+								<div class="advantages__text advantages-odd">Скорость<br> распознавания:</div>
+								<div class="advantages__number advantages-odd-number">
+									<div class="advantages__num-text advantages-odd-number">до</div>
+									<span>95</span>
+									<div class="advantages__value">МС</div>
+								</div>
+							</div>
+
+						</div>
+						<div class="advantages__column">
+							<div class="advantages__item">
+								<div class="advantages__text">Количество<br> слоев нейросети:</div>
+								<div class="advantages__number"><span>106</span></div>
+							</div>
+						</div>
+						<div class="advantages__column">
+							<div class="advantages__item advantages-odd">
+								<div class="advantages__text advantages-odd">Высокая<br> эффективность:</div>
+								<div class="advantages__number advantages-odd-number">
+									<span>1</span>
+									<div class="advantages__value">GPU</div>
+									<div class="advantages__slash"></div>
+									<span>3</span>
+									<div class="advantages__value">камеры</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<img src="img/icons/line.svg" alt="" class="advantages__icon icon">
+				</div>
+			</section>
+			<section data-watch="navigator" class="page__problem problem">
+				<div class="problem__container">
+					<div class="problem__title title">Проблема</div>
+					<div class="problem__body">
+						<div class="problem__top top-problem">
+							<div class="top-problem__column">
+								<div class="top-problem__item">
+									<div class="top-problem__image _icon-problem-1"></div>
+									<div class="top-problem__text">В России в среднем в год происходит около 4000 случаев производственного травматизма</div>
+								</div>
+							</div>
+							<div class="top-problem__column">
+								<div class="top-problem__item">
+									<div class="top-problem__image _icon-problem-2"></div>
+									<div class="top-problem__text">Штрафы по нарушениям составляют более 3 млрд руб.</div>
+								</div>
+							</div>
+							<div class="top-problem__column">
+								<div class="top-problem__item">
+									<div class="top-problem__image _icon-problem-3"></div>
+									<div class="top-problem__text">Тысячи уголовных дел заводятся на ответственных за технику безопасности и охрану труда</div>
+								</div>
+							</div>
+						</div>
+						<div class="problem__bottom bottom-problem">
+							<div class="bottom-problem__title">Проблематика:</div>
+							<div class="bottom-problem__content">
+								<div class="bottom-problem__column">
+									<div class="bottom-problem__icon-warning _icon-exclamation-point"></div>
+									<div class="bottom-problem__desc">
+										<div class="bottom-problem__text">Описание проблемы:</div>
+										<div class="bottom-problem__subtext">В среднем в год происходит около 3000 нарушений безопасности движения поездов, поэтому данный проект очень актуален для всех ж/д компаний</div>
+									</div>
+								</div>
+								<div class="bottom-problem__column">
+									<picture><source srcset="img/problem-image.webp" type="image/webp"><img src="img/problem-image.png" alt=""></picture>
+								</div>
+								<div class="bottom-problem__column">
+									<div class="bottom-problem__icon-check _icon-check"></div>
+									<div class="bottom-problem__desc">
+										<div class="bottom-problem__text">Решение:</div>
+										<div class="bottom-problem__subtext">Платформа Нейробриз позволит в режиме реального времени сигнализировать о нарушениях охраны труда, техники безопасности и технологии производства работ непосредственно исполнителю работ</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<img src="img/icons/line.svg" alt="" class="problem__icon icon">
+				</div>
+			</section>
+			<section data-watch="navigator" class="page__architecture architecture">
+				<div class="architecture__container">
+					<div class="architecture__title title">Архитектура</div>
+					<div class="architecture__subtitle subtitle">YOLOv3 — архитектура распознавания объектов в режиме реального времени</div>
+					<div class="architecture__body">
+						<div class="architecture__column architecture-column-one">
+							<div class="architecture-column-one__item">
+								<div class="architecture-column-one__title">свёрточных слоёв</div>
+								<div class="architecture-column-one__number">106</div>
+							</div>
+						</div>
+						<div class="architecture__column architecture-column-two">
+							<div class="architecture-column-two__item">
+								<div class="architecture-column-two__image _icon-architecture-arrows"></div>
+								<div class="architecture-column-two__text">Система автоматически выдает сигналы<br> при обнаружении нарушения и отправляет уведомление<br> в соответствующую автоматизированную систему управления</div>
+							</div>
+						</div>
+						<div class="architecture__column architecture-column-three">
+							<div class="architecture-column-three__item">
+								<div class="architecture-column-three__title">Преимущества технологии</div>
+								<div class="architecture-column-three__subtitle">Преимущества технологии. Используется на автомобильных и индивидуальных видеорегистраторах</div>
+							</div>
+						</div>
+					</div>
+					<img src="img/icons/line.svg" alt="" class="architecture__icon icon">
+				</div>
+			</section>
+			<section data-watch="navigator" class="page__integrated-system integrated-system">
+				<div class="integrated-system__container">
+					<div class="integrated-system__title title">Комплексная архитектура системы</div>
+					<div class="integrated-system__body">
+						<div class="integrated-system__line">
+							<div class="integrated-system__border-top _icon-integrated-system"></div>
+							<div class="integrated-system__border-center _icon-integrated-system"></div>
+							<div class="integrated-system__border-bottom _icon-integrated-system"></div>
+						</div>
+						<div class="integrated-system__content">
+							<div class="integrated-system__column">
+								<div class="integrated-system__item">
+									<div class="integrated-system__image">
+										<picture><source srcset="img/integrated-system-1.webp" type="image/webp"><img src="img/integrated-system-1.png" alt=""></picture>
+									</div>
+									<div class="integrated-system__desc">
+										<div class="integrated-system__text">«Интеллектуальные» сервера в депо со встроенным искусственным интеллектом</div>
+										<div class="integrated-system__subtext">FullHD, HDR, ночная съёмка, угол 170о</div>
+									</div>
+								</div>
+							</div>
+							<div class="integrated-system__column">
+								<div class="integrated-system__item">
+									<div class="integrated-system__image">
+										<picture><source srcset="img/integrated-system-2.webp" type="image/webp"><img src="img/integrated-system-2.png" alt=""></picture>
+									</div>
+									<div class="integrated-system__desc">
+										<div class="integrated-system__text">«Интеллектуальные» сервера в депо со встроенным искусственным интеллектом</div>
+										<div class="integrated-system__subtext">3х-скорость распознавания</div>
+									</div>
+								</div>
+							</div>
+							<div class="integrated-system__column">
+								<div class="integrated-system__item">
+									<div class="integrated-system__image">
+										<picture><source srcset="img/integrated-system-3.webp" type="image/webp"><img src="img/integrated-system-3.png" alt=""></picture>
+									</div>
+									<div class="integrated-system__desc">
+										<div class="integrated-system__text">«Интеллектуальные» центры обработки данных для хранения, верификации и классификации видеозаписей</div>
+										<div class="integrated-system__subtext">Поиск записей за 1 сек, Хранение до 1 года</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<img src="img/icons/line.svg" alt="" class="integrated-system__icon icon">
+				</div>
+			</section>
+			<section data-watch="navigator" class="page__results results">
+				<div class="results__container">
+					<div class="results__title title">Ожидаемые Результаты</div>
+				</div>
+				<div class="results__body">
+					<div class="results__image">
+						<picture><source srcset="img/results-image.webp" type="image/webp"><img src="img/results-image.png" alt=""></picture>
+					</div>
+					<div class="results__content">
+						<div class="results__column">
+							<div class="results__item">
+								<div class="results__text results-one-text">Жизнь человека не стоит<br> никаких денег!</div>
+								<div class="results__icons">
+									<div class="results__icon-man _icon-man"></div>
+								</div>
+							</div>
+						</div>
+						<div class="results__column">
+							<div class="results__item">
+								<div class="results__text">Снижение усталости<br> работников!</div>
+								<div class="results__icons">
+									<div class="results__icon icon-one _icon-arrow _active"></div>
+									<div class="results__icon icon-one _icon-arrow results-icon-two"></div>
+								</div>
+							</div>
+						</div>
+						<div class="results__column">
+							<div class="results__item">
+								<div class="results__text">Повышение<br> безопасности!</div>
+								<div class="results__icons">
+									<div class="results__icon icon-two _icon-arrow"></div>
+									<div class="results__icon icon-two _icon-arrow results-icon-two _active"></div>
+								</div>
+							</div>
+						</div>
+						<div class="results__column">
+							<div class="results__item">
+								<div class="results__text">Повышение эффективности<br> профилактических мероприятий!</div>
+								<div class="results__icons">
+									<div class="results__icon icon-three _icon-arrow _active"></div>
+									<div class="results__icon icon-three _icon-arrow results-icon-two"></div>
+								</div>
+							</div>
+						</div>
+						<div class="results__column">
+							<div class="results__item">
+								<div class="results__text">Снижение количества нарушений<br> безопасности!</div>
+								<div class="results__icons">
+									<div class="results__icon icon-four _icon-arrow"></div>
+									<div class="results__icon icon-four _icon-arrow results-icon-two _active"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="results__items __container">
+					<img src="img/icons/line.svg" alt="" class="results__icon-img icon">
+				</div>
+			</section>
+			<section data-watch="navigator" class="page__write write">
+				<div class="write__container">
+					<div class="write__title title">Напишите нам и мы ответим<br> на Ваши вопросы</div>
+					<div class="write__top">
+						<a id="buttonWrite" href="#" class="contacts-header__button write-button">Написать</a>
+						<a href="#" class="contacts-header__email write-email">neurobriz@yandex.ru</a>
+					</div>
+					<div class="header__button-block">
+						<div class="header__email email-header">
+							<div class="email-header__content">
+								<div class="email-header__container">
+									<button type="button" class="email-header__icon"><span></span></button>
+									<div class="email-header__title">Напишите нам и мы ответим<br> на Ваши вопросы</div>
+									<form action="#" class="email-header__forms">
+										<div class="email-header__line">
+											<div class="email-header__form first-form">
+												<div class="email-header__label">Ваше имя</div>
+												<input type="name" name="form[]" placeholder="Как можно к вам обратиться?" class="email-header__input">
+											</div>
+											<div class="email-header__body">
+												<div class="email-header__form">
+													<div class="email-header__label">Ваш телефон*</div>
+													<input data-validate id="tel" type="tel" name="form[]" placeholder="В любом удобном для вас формате (обязательно)" class="email-header__input">
+												</div>
+												<div class="email-header__form">
+													<div class="email-header__label">Ваша электронная почта*</div>
+													<input data-validate data-required="email" type="email" name="form[]" placeholder="Обещаем, что не отправим спам (обязательно)" class="email-header__input">
+												</div>
+												<div class="email-header__form">
+													<div class="email-header__label">название вашей Компании</div>
+													<input id="namecompany" type="text" name="form[]" placeholder="Какую компанию вы представляете?" class="email-header__input">
+												</div>
+												<div class="email-header__form">
+													<div class="email-header__label">Ваша Должность</div>
+													<input type="text" name="form[]" placeholder="Какую должность занимаете?" class="email-header__input">
+												</div>
+											</div>
+											<div class="email-header__form last-form">
+												<div class="email-header__label">ваше Сообщение</div>
+												<textarea name="text" placeholder="Задайте ваш вопрос..." class="email-header__textarea"></textarea>
+											</div>
+										</div>
+										<button type="submit" class="email-header__button">Отправить</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="page__icon"></div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+			</div>
+		</footer>
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+	<script src="js/app.min.js?_v=20221017213535"></script>
+</body>
+
+</html>
